@@ -1,0 +1,16 @@
+{
+    "name": "eugene/query-logger",
+    "description": "A package for logging database queries",
+    "autoload": {
+        "psr-4": {
+            "Eugene\\QueryLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eugene",
+            "email": "swallow1991@gmail.com"
+        }
+    ],
+    "require": {}
+}
