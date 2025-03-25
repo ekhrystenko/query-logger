@@ -12,5 +12,22 @@
             "email": "swallow1991@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2",
+        "illuminate/database": "^11.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ekhrystenko/query-logger"
+        }
+    ],
+    "version": "1.0.0",
+    "scripts": {
+        "post-autoload-dump": [
+            "@php artisan vendor:publish --tag=query-logger-config"
+        ]
+    }
 }
